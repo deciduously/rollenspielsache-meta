@@ -6,7 +6,7 @@ This repository contains planning and cross-component configurations that don't 
 
 ### Library
 
-* [librollenspielsache](https://github.com/deciduously/librollenspielsache) - Rust core library.  C-compatible.  [crates.io](https://crates.io/crates/librollenspielsachedocr) - [docs.rs](https://docs.rs/librollenspielsache/0.1.2/rollenspielsache/index.html)
+* [librollenspielsache](https://github.com/deciduously/librollenspielsache) - Rust core library.  C-compatible.  [crates.io](https://crates.io/crates/librollenspielsache) - [docs.rs](https://docs.rs/librollenspielsache/0.1.2/rollenspielsache/index.html)
 * [librollenspielsache-rb](https://github.com/deciduously/librollenspielsache-rb) - Ruby bindings for `librollenspielsache`. [rubygems.org](https://rubygems.org/gems/librollenspielsache-rb)
 
 ### Clients
