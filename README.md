@@ -18,3 +18,5 @@ This repository contains planning and cross-component configurations that don't 
 ## Deployment
 
 Currently `rollenspielsache-svc` is deployed at `rollenspielsache.deciduously.com`, using NGINX as a reverse proxy to `localhost:9292`, where the Docker container is mounted.  I have the main page on `localhost:8080`.  Only 443/SSL connections are accepted, see `nginx/sites-available` for configuration blocks.  The host is a DigitalOcean droplet running Ubuntu 20.04, with `docker`, `ufw`, `nginx`.
+
+I have `rollenspielsache-www` hosted at [https://rollenspielsache-www.now.sh/](https://rollenspielsache-www.now.sh/) via Zeit Now.  I will probably eventually have `rollenspielsache-svc` serve it directly at `rollenspielsache.deciduously.com`.  This will entail including the production bundle in the service and serving from `/`.  NOt a huge priority, for now, it will redirect.
